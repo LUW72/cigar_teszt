@@ -3,4 +3,5 @@ import fgv
 
 
 # fgv_teszt.cigar_party_teszt()
-fgv_teszt.cigar_teszt_02()
+# fgv_teszt.cigar_teszt_02()
+fgv_teszt.sum_test()

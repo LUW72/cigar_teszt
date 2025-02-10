@@ -54,3 +54,15 @@ def cigar_teszt_02():
               f"\n\tKapott eredmény: {kapott_e}"
               f"\n\n\tJó-e? {vart_e == kapott_e}")
 
+
+def sum_test():
+    a_lista =    [3,  9, 10, 7, 9]
+    b_lista =    [4,  4, 11, 12, 1]
+    vart_lista = [7, 20, 21, 20, 20]
+
+    for i in range(len(a_lista)):
+        print(f"{i + 1}. Teszteset")
+        print(f"\tA: {a_lista[i]}\n\tB: {b_lista[i]}\n\tVárt eredmény: {vart_lista[i]}")
+        kapott_er = fgv.hazi_test(a_lista[i], b_lista[i])
+        print(f"Kapott eredmény: {kapott_er}")
+        print(f"Helyes? - {vart_lista[i] == kapott_er}")
